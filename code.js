@@ -1,15 +1,39 @@
 function mergesort(array) {
-    if(list.length < 2){
-        return list;
+    if(array.length < 2){
+        return array;
     }
 
-    for(listSize = 1; listSize < list.length; listSize=2){
-        for(var x = 0; x < list.length; x += listSize *2){
+    for(var arraySize = 1; arraySize < array.length; arraySize=2){
+        for(var x = 0; x < array.length; x += arraySize *2){
             var start = x;
-            var mid = x + listSize - 1;
-            var end = x + listSize *2 -1;
+            var mid = x + arraySize - 1;
+            var end = x + arraySize *2 -1;
 
         }
     }
     return array;
+}
+function sort(array,l,m,r){
+    var min =1;
+    var min2 = m+1;
+
+    while (min <= 1) && (min2<=r)){
+    
+        if (array[min] > array[min2]){
+            let minVal = array[min2];
+            for(var minP = min2; min; minP--){
+            
+                array[minP]=array[minP-1];
+            }
+            array[min] = minValue;
+            min++;
+            min2++;
+            m++;
+        }
+        else{
+            min++
+    }
+    }
+}
+    
 }
