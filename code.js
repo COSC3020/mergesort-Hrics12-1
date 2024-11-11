@@ -17,7 +17,7 @@ function sort(array,l,m,r){
     var min =1;
     var min2 = m+1;
 
-    while (min <= 1) && (min2<=r)){
+    while ((min <= m) && (min2<=r)){
     
         if (array[min] > array[min2]){
             let minVal = array[min2];
