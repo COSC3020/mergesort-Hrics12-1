@@ -1,5 +1,5 @@
 function mergesort(array) {
-    if(array.length < 2){
+    if(array < 2 ){
         return array;
     }
 
@@ -14,7 +14,7 @@ function mergesort(array) {
     return array;
 }
 function sort(array,l,m,r){
-    var min =1;
+    var min =l;
     var min2 = m+1;
 
     while ((min <= m) && (min2<=r)){
