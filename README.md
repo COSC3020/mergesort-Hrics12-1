@@ -14,3 +14,5 @@ part of the array each recursive call considers.
 Analyse the time complexity of your implementation and give a $\Theta$ bound for
 its worst-case runtime. Add your answer, including your reasoning, to this
 markdown file.
+
+The time to check if the array size is less then 2 is constant. Then there are two nested loops. The outter loop discovers the size of the subarray sizes and doubles each time until the input size, n, is found. That's $logn$ iterations. 
