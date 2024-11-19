@@ -22,7 +22,7 @@ function sort(array,l,m,r){
     
         if (array[min] > array[min2]){
             let minVal = array[min2];
-            for(var minP = min2; min; minP--){
+            for(var minP = min2; min < minP; minP--){
             
                 array[minP]=array[minP-1];
             }
