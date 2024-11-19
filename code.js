@@ -9,6 +9,7 @@ function mergesort(array) {
             var mid = x + arraySize - 1;
             var end = x + arraySize *2 -1;
 
+            sort(array,start,mid,end);
         }
     }
     return array;
