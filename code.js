@@ -3,7 +3,7 @@ function mergesort(array) {
         return array;
     }
 
-    for(var arraySize = 1; arraySize < array.length; arraySize=2){
+    for(var arraySize = 1; arraySize < array.length; arraySize*=2){    //wasn't doubling doubling
         for(var x = 0; x < array.length; x += arraySize *2){
             var start = x;
             var mid = x + arraySize - 1;
