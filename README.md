@@ -21,5 +21,9 @@ https://www.geeksforgeeks.org/in-place-merge-sort/<br>
 https://www.youtube.com/watch?v=xleF7ykgcHY<br>
 https://jonathan-wong.medium.com/algorithms-merge-sort-638679180288<br>
 
+
+I was being dumb and realized I wasn't doubling the array size in the outer loop even tho I knew it needed to be done. 
+
+
 I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice
 
