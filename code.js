@@ -3,7 +3,7 @@ function mergesort(array) {
         return array;
     }
 
-    for(var arraySize = 1; arraySize < array.length; arraySize*=2){    //wasn't doubling doubling
+    for(var arraySize = 1; arraySize < array.length; arraySize*=2){    //wasn't doubling 
         for(var x = 0; x < array.length; x += arraySize *2){
             var start = x;
             var mid = x + arraySize - 1;
@@ -26,7 +26,7 @@ function sort(array,l,m,r){
             
                 array[minP]=array[minP-1];
             }
-            array[min] = minValue;
+            array[min] = minVal;
             min++;
             min2++;
             m++;
